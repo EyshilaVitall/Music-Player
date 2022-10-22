@@ -1,0 +1,91 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+ background-color: #333;
+    color: #ddd;
+}
+
+.fundo{
+    background-color:rgba(0, 0, 0, 0.233);
+    width: 350px;
+    align-items: center;
+   height: 70%;
+  
+}
+  
+
+
+img{
+    width: 300px;
+    height: 300px;
+    float: left, 100px ;
+    margin-left: 7%;
+    margin-top: 20px;
+}
+
+.descricao{
+float:right;
+width: 320px;
+}
+h2{
+    margin-bottom: 10px;
+    
+}
+.duracao{
+ float: left;
+    margin-top: 40px;
+   
+}
+.barra{
+    width: 345px;
+    height: 6px;
+   
+    border: 1px solid #eee;
+    border-radius:2px;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;;
+   
+}
+progress{
+    top: 85px;
+    height: 6px;
+    width:0%;
+    background-color: #333;
+   
+}
+.ponto{
+  width: 20px;
+  height: 20px;  
+  background-color: #eee;
+  border-radius: 50%;
+margin-left: -1px;
+}
+.tempo{
+    display: flex;
+    width: 340px;
+    justify-content: space-between;
+}
+.player{
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+.botao-play,.botao-pause{
+    font-size: 50px;
+    cursor: pointer;
+}
+.setas{
+    font-size: 40px;
+    cursor: pointer;
+}
+.botao-pause{
+    display: none;
+}
